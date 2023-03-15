@@ -10,9 +10,9 @@ Write a JavaScript program to construct the following pattern, using a nested fo
 
 */
 
-for (let i=0; i<=4 ; i++){
+for (let i=1; i<=5 ; i++){
   let temp = ""
-  for(let j=0 ;j <= i ; j++){
+  for(let j=1 ;j <= i ; j++){
     temp += "*"
   }
 console.log(temp)
