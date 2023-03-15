@@ -20,4 +20,4 @@ console.log(waitbank) //['David', 'Juan', 'Sara', 'Augustin' ]
 waitbank.splice(1,0,'Renata')
 waitbank.push('Elena')
 console.log(waitbank)
-//[ 'Sofia', 'David', 'Renata', 'Juan', 'Sara', 'Augustin', 'Elena' ]
+//[ 'David', 'Renata', 'Juan', 'Sara', 'Augustin', 'Elena' ]
