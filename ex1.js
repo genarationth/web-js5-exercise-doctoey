@@ -13,10 +13,11 @@ It turns out David was saving a spot for his friend Renata. She shows up and goe
 let waitbank = ['Sofia', 'David', 'Juan']
 //part2
 waitbank.push('Sara','Augustin')
-console.log(waitbank) //[ 'Sofia', 'David', 'Juan', 'Sara', 'Augustin' ]
+waitbank.shift();
+console.log(waitbank) //['David', 'Juan', 'Sara', 'Augustin' ]
 
 //part3
-waitbank.splice(2,0,'Renata')
+waitbank.splice(1,0,'Renata')
 waitbank.push('Elena')
 console.log(waitbank)
 //[ 'Sofia', 'David', 'Renata', 'Juan', 'Sara', 'Augustin', 'Elena' ]
